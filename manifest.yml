@@ -1,0 +1,7 @@
+---
+applications:
+- memory: 256M
+  instances: 2
+  buildpack: java_buildpack
+  env:
+    ALLOWED_CORS_ORIGIN: your-client-app.com
